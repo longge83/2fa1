@@ -4,7 +4,7 @@ compatibility_date = "2024-01-13"
 workers_dev = true
 
 # KV 命名空间
-# 始终声明 SECRETS_KV，避免 Git 自动构建部署时丢失绑定。  
+# 始终声明 SECRETS_KV，避免 Git 自动构建部署时丢失绑定。
 # 新版 Wrangler 会在首次部署时自动创建或保持已链接的 KV 资源。
 # 如需固定到指定资源，可在本地补充 id / preview_id。
 [[kv_namespaces]]
